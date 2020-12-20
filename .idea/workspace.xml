@@ -10,11 +10,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
-    </list>
+    <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="implemented comment functionality for uploaded images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +34,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Run&amp;Fix_Unit_test_cases" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="660" />
@@ -51,7 +54,6 @@
   <component name="ProjectId" id="1ltlwgJMBJkE2v00bt44l2Ueo8n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -65,19 +67,95 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541429731467" />
-    <property name="last_opened_file_path" value="E:/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Upgrad_MSCS/Git/Assignments" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="imagehoster.controller" />
+      <recent name="imagehoster.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Udacity\cloud-developer\image-hoster\src\main\resources\templates" />
+      <recent name="D:\Udacity\cloud-developer\image-hoster\src\main\resources\templates\users" />
+      <recent name="D:\Udacity\cloud-developer\image-hoster\src\main\resources\templates\images" />
+      <recent name="D:\Udacity\cloud-developer\image-hoster\src\main\java\imagehoster\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ImageHosterApplication">
+    <configuration name="imagehoster.controller in ImageHoster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imagehoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="imagehoster.controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ImageHoster" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ImageHoster" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="image-hoster" />
+      <module name="ImageHoster" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="imagehoster.*" />
@@ -89,6 +167,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.imagehoster.controller in ImageHoster" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\kiit1\AppData\Roaming\Subversion</configuration>
@@ -115,6 +198,8 @@
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
       <workItem from="1608424512193" duration="753000" />
+      <workItem from="1608432950724" duration="119000" />
+      <workItem from="1608433123694" duration="4761000" />
     </task>
     <task id="LOCAL-00001" summary="display image edit/delete error message for non owners">
       <created>1608427814525</created>
@@ -137,11 +222,63 @@
       <option name="project" value="LOCAL" />
       <updated>1608428245153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implemented comment functionality for images">
+      <created>1608431552540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608431552540</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implemented comment functionality for images">
+      <created>1608431586656</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608431586656</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implemented comment functionality for uploaded images">
+      <created>1608433935009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608433935009</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added bg-color to images.html page">
+      <created>1608434369199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608434369199</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed Unit Test Cases for Image-Hoster">
+      <created>1608435014007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608435014007</updated>
+    </task>
+    <task id="LOCAL-00009" summary="disabled JPA database reference annotations inspection">
+      <created>1608435726613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608435726613</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -159,9 +296,18 @@
     <MESSAGE value="image hoster local setup" />
     <MESSAGE value="display image edit/delete error message for non owners" />
     <MESSAGE value="change to display image edit/delete error message for non-owners" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to display image edit/delete error message for non-owners" />
+    <MESSAGE value="implemented comment functionality for images" />
+    <MESSAGE value="implemented comment functionality for uploaded images" />
+    <MESSAGE value="added bg-color to images.html page" />
+    <MESSAGE value="Fixed Unit Test Cases for Image-Hoster" />
+    <MESSAGE value="disabled JPA database reference annotations inspection" />
+    <option name="LAST_COMMIT_MESSAGE" value="disabled JPA database reference annotations inspection" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="582" y="255" key="#Assign_Data_Sources" timestamp="1608435848557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="255" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1608435848557" />
     <state x="341" y="0" width="697" height="728" key="#ImageHosterApplication" timestamp="1608424771681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -170,86 +316,90 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608424715957" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1608428243800">
+    <state x="117" y="0" key="CommitChangelistDialog2" timestamp="1608435725036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608428243800" />
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1608429384138">
+    <state x="117" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608435725036" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1608439717951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1608429384138" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608424943575">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1608439717951" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608436548665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608424943575" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1608429300765">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608436548665" />
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1608436177724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608436177724" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.1.bottom" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.1.bottom" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.1.center" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.1.center" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.1.left" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.1.left" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.1.right" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.1.right" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.2.bottom" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.2.bottom" timestamp="1608436177726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.2.center" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608436177726" />
+    <state width="1323" height="229" key="GridCell.Tab.2.center" timestamp="1608436177726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.2.left" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1608436177726" />
+    <state width="1323" height="229" key="GridCell.Tab.2.left" timestamp="1608436177725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state width="1323" height="229" key="GridCell.Tab.2.right" timestamp="1608429300765">
+    <state width="1323" height="229" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1608436177725" />
+    <state width="1323" height="229" key="GridCell.Tab.2.right" timestamp="1608436177726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1608425270921">
+    <state width="1323" height="229" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1608436177726" />
+    <state x="447" y="66" key="RollbackChangesDialog" timestamp="1608431435082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608425270921" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1608428247142">
+    <state x="447" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608431435082" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1608435598135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608428247142" />
-    <state x="390" y="85" width="585" height="558" key="find.popup" timestamp="1608428591280">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608435598135" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1608435728952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="85" width="585" height="558" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1608428591280" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608435728952" />
+    <state x="390" y="85" width="585" height="558" key="find.popup" timestamp="1608436114234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="85" width="585" height="558" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1608436114234" />
     <state x="389" y="152" key="git4idea.merge.GitPullDialog" timestamp="1608426652565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1608426652565" />
-    <state x="105" y="115" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1608428004748">
+    <state x="105" y="115" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1608431565106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="105" y="115" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1366.728@0.0.1366.728" timestamp="1608428004748" />
+    <state x="105" y="115" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1366.728@0.0.1366.728" timestamp="1608431565106" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
