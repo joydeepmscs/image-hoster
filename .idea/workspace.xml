@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
+    <expand />
+    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="" />
+    <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +34,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>post</find>
-      <find>hibernate</find>
-      <find>retype</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -73,10 +61,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="imagere&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/repository/ImageRepository.java&#10;imagec&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/controller/ImageController.java" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541429731467" />
     <property name="last_opened_file_path" value="E:/" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -125,6 +116,28 @@
       <workItem from="1541482181542" duration="4602000" />
       <workItem from="1608424512193" duration="753000" />
     </task>
+    <task id="LOCAL-00001" summary="display image edit/delete error message for non owners">
+      <created>1608427814525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608427814525</updated>
+    </task>
+    <task id="LOCAL-00002" summary="display image edit/delete error message for non owners">
+      <created>1608427957967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608427957967</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change to display image edit/delete error message for non-owners">
+      <created>1608428245153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608428245153</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +157,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="image hoster local setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="image hoster local setup" />
+    <MESSAGE value="display image edit/delete error message for non owners" />
+    <MESSAGE value="change to display image edit/delete error message for non-owners" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to display image edit/delete error message for non-owners" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="0" width="697" height="728" key="#ImageHosterApplication" timestamp="1608424771681">
@@ -155,45 +170,96 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608424715957" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1608428243800">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608428243800" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1608429384138">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1608429384138" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608424943575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608424943575" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
-    <state width="1323" height="229" key="GridCell.Tab.1.bottom" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.1.bottom" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
-    <state width="1323" height="229" key="GridCell.Tab.1.center" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.1.center" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
-    <state width="1323" height="229" key="GridCell.Tab.1.left" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.1.left" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
-    <state width="1323" height="229" key="GridCell.Tab.1.right" timestamp="1608425165471">
+    <state width="1323" height="229" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.1.right" timestamp="1608429300765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608425165471" />
+    <state width="1323" height="229" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.2.bottom" timestamp="1608429300765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="229" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.2.center" timestamp="1608429300765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="229" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.2.left" timestamp="1608429300765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="229" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
+    <state width="1323" height="229" key="GridCell.Tab.2.right" timestamp="1608429300765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="229" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1608429300765" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1608425270921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608425270921" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1608428247142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608428247142" />
+    <state x="390" y="85" width="585" height="558" key="find.popup" timestamp="1608428591280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="85" width="585" height="558" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1608428591280" />
+    <state x="389" y="152" key="git4idea.merge.GitPullDialog" timestamp="1608426652565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1608426652565" />
+    <state x="105" y="115" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1608428004748">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="105" y="115" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1366.728@0.0.1366.728" timestamp="1608428004748" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/imagehoster/controller/UserController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
