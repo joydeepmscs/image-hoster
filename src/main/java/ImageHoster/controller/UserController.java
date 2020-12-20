@@ -21,7 +21,7 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-
+    public static final String PASSWORD_PATTERN= "((?=.*[0-9])(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).*)";
     @Autowired
     private ImageService imageService;
     public static String PASSWORD_ERROR = "Password must contain atleast 1 alphabet, 1 number & 1 special character";
@@ -43,8 +43,7 @@ public class UserController {
     @RequestMapping(value = "users/registration", method = RequestMethod.POST)
     public String registerUser(User user,Model model) {
         String password= user.getPassword();
-        String pattern = "((?=.*[0-9])(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).*)";
-        boolean isValidPassword= Pattern.matches(pattern,password);
+        boolean isValidPassword= Pattern.matches(PASSWORD_PATTERN,password);
         if(isValidPassword){
             userService.registerUser(user);
             return "users/login";
