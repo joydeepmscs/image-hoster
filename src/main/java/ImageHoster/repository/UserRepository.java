@@ -1,6 +1,6 @@
-package ImageHoster.repository;
+package imagehoster.repository;
 
-import ImageHoster.model.User;
+import imagehoster.model.User;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.*;
