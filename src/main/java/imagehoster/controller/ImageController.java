@@ -97,16 +97,17 @@ public class ImageController {
     @RequestMapping(value = "/editImage")
     public String editImage(@RequestParam("imageId") Integer imageId, Model model,HttpSession session) {
         Image image = imageService.getImage(imageId);
+        model.addAttribute("image", image);
         User currentUser= (User) session.getAttribute("loggeduser");
+        String tags = convertTagsToString(image.getTags());
+        model.addAttribute("tags", tags);
         if(currentUser.getId()==image.getUser().getId()){
-            String tags = convertTagsToString(image.getTags());
-            model.addAttribute("image", image);
-            model.addAttribute("tags", tags);
             return "images/edit";
         } else {
-            model.addAttribute("image",image);
+            model.addAttribute("tags", image.getTags());
+            model.addAttribute("comments",image.getComments());
             model.addAttribute("editError", EDIT_IMAGE_ERROR);
-            return  "images/image";
+           return  "images/image";
         }
     }
 
@@ -141,7 +142,7 @@ public class ImageController {
         updatedImage.setDate(new Date());
 
         imageService.updateImage(updatedImage);
-        return "redirect:/images/" + updatedImage.getTitle();
+        return "redirect:/images/" + updatedImage.getId()+"/"+updatedImage.getTitle();
     }
 
 
@@ -156,7 +157,9 @@ public class ImageController {
             imageService.deleteImage(imageId);
             return "redirect:/images";
         } else{
-            model.addAttribute("image",image);
+            model.addAttribute("image", image);
+            model.addAttribute("tags", image.getTags());
+            model.addAttribute("comments",image.getComments());
             model.addAttribute("deleteError", DELETE_IMAGE_ERROR);
             return  "images/image";
         }
