@@ -1,12 +1,12 @@
 /*
-package ImageHoster.controller;
+package imagehoster.controller;
 
 
-import ImageHoster.model.Image;
-import ImageHoster.model.User;
-import ImageHoster.model.UserProfile;
-import ImageHoster.service.CommentService;
-import ImageHoster.service.ImageService;
+import imagehoster.model.Image;
+import imagehoster.model.User;
+import imagehoster.model.UserProfile;
+import imagehoster.service.CommentService;
+import imagehoster.service.ImageService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;

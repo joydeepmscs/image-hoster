@@ -1,4 +1,4 @@
-package ImageHoster.model;
+package imagehoster.model;
 
 import javax.persistence.*;
 

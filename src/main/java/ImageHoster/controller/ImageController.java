@@ -1,10 +1,10 @@
-package ImageHoster.controller;
+package imagehoster.controller;
 
-import ImageHoster.model.Image;
-import ImageHoster.model.Tag;
-import ImageHoster.model.User;
-import ImageHoster.service.ImageService;
-import ImageHoster.service.TagService;
+import imagehoster.model.Image;
+import imagehoster.model.Tag;
+import imagehoster.model.User;
+import imagehoster.service.ImageService;
+import imagehoster.service.TagService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
