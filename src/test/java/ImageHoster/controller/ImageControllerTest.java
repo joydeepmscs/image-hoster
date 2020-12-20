@@ -1,4 +1,3 @@
-/*
 package imagehoster.controller;
 
 import imagehoster.model.Image;
@@ -310,4 +309,3 @@ public class ImageControllerTest {
     }
 }
 
-*/
