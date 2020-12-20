@@ -99,9 +99,9 @@ public class ImageController {
         Image image = imageService.getImage(imageId);
         model.addAttribute("image", image);
         User currentUser= (User) session.getAttribute("loggeduser");
-        String tags = convertTagsToString(image.getTags());
-        model.addAttribute("tags", tags);
         if(currentUser.getId()==image.getUser().getId()){
+            String tags = convertTagsToString(image.getTags());
+            model.addAttribute("tags", tags);
             return "images/edit";
         } else {
             model.addAttribute("tags", image.getTags());
