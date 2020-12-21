@@ -107,7 +107,7 @@ public class ImageController {
             model.addAttribute("tags", image.getTags());
             model.addAttribute("comments",image.getComments());
             model.addAttribute("editError", EDIT_IMAGE_ERROR);
-           return  "images/image";
+            return  "images/image";
         }
     }
 

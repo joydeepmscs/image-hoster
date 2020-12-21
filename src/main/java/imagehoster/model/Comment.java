@@ -1,7 +1,7 @@
 package imagehoster.model;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name="comments")
@@ -15,7 +15,7 @@ public class Comment {
     @Column(name="text",columnDefinition = "TEXT")
     private String text;
     @Column(name="createdDate")
-    private Date createdDate;
+    private LocalDateTime createdDate;
     @ManyToOne(fetch = FetchType.EAGER)
     private Image image;
     public Integer getId() {
@@ -42,11 +42,11 @@ public class Comment {
         this.text = text;
     }
 
-    public Date getCreatedDate() {
+    public LocalDateTime getCreatedDate() {
         return createdDate;
     }
 
-    public void setCreatedDate(Date createdDate) {
+    public void setCreatedDate(LocalDateTime createdDate) {
         this.createdDate = createdDate;
     }
 
