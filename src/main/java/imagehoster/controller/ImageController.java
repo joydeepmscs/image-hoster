@@ -202,10 +202,10 @@ public class ImageController {
         for (int i = 0; i <= tags.size() - 2; i++) {
             tagString.append(tags.get(i).getName()).append(",");
         }
-
-        Tag lastTag = tags.get(tags.size() - 1);
-        tagString.append(lastTag.getName());
-
+        if (!tags.isEmpty()) {
+            Tag lastTag = tags.get(tags.size() - 1);
+            tagString.append(lastTag.getName());
+        }
         return tagString.toString();
     }
 }
