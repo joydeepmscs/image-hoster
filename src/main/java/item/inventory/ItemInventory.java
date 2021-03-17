@@ -1,11 +1,11 @@
-package imagehoster;
+package item.inventory;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ImageHosterApplication {
+public class ItemInventory {
     public static void main(String[] args) {
-        SpringApplication.run(ImageHosterApplication.class, args);
+        SpringApplication.run(ItemInventory.class, args);
     }
 }
